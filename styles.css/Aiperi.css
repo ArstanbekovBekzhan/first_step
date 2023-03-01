@@ -1,0 +1,277 @@
+body {
+    overflow-x: hidden;
+}
+
+.log {
+    position: absolute;
+    width: 100vw;
+    height: 1200px;
+    z-index: -1;
+    right: -30%;
+    top: -12%;
+}
+
+.first-container {
+    height: 1110px;
+    width: 100%;
+}
+
+.right-side {
+    width: 100%;
+    display: flex;
+
+}
+
+.burger {
+    display: none;
+}
+
+.s-image {
+    display: none;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+menu {
+    display: flex;
+    list-style: none;
+    margin-left: 165px;
+}
+
+menu li {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin-right: 60px;
+
+    color: #505F98;
+
+}
+
+menu :last-child {
+    margin-right: 271px;
+}
+
+.logotype {
+    margin-right: 355px;
+}
+
+button.buy {
+    width: 160px;
+    height: 26px;
+
+    background-color: #111B47;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+
+.cent .main {
+    display: flex;
+    margin-top: 261px;
+    flex-direction: column;
+    padding-right: 114px;
+}
+
+.cent {
+    display: flex;
+    padding-left: 140px;
+}
+
+.main-a {
+    margin-top: 261px;
+}
+
+h1.xl-main {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+}
+
+p.s-main {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505F98;
+
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+p.ss-main {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #505F98;
+    margin-bottom: 69px;
+    margin-top: 20px;
+    margin-right: 60px;
+
+}
+
+button.dark {
+    width: 189px;
+    height: 36px;
+    background: #111B47;
+    border-radius: 2px;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-right: 30px;
+}
+
+button.light-a {
+    width: 189px;
+    height: 36px;
+    background: white;
+    border-radius: 2px;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111B47;
+}
+
+button.dark:hover {
+    background-color: #273880;
+}
+
+button.light:hover {
+    background-color: #273880;
+    color: white;
+
+}
+
+.image {
+    padding-top: 245px;
+}
+
+@media screen and (max-width: 420px) {
+    .main-a {
+        height: 400px;
+    }
+
+    .first-container {
+        height: auto;
+    }
+
+    .cent {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+
+    .log {
+        width: 100vw;
+        height: 40vh;
+        margin-top: 68px;
+        left: 0;
+        top: 4%;
+    }
+
+    .image {
+        margin: 0;
+        padding: 0;
+        height: 371px;
+    }
+
+    .class {
+        display: none;
+    }
+
+    .s-image {
+        display: block;
+        width: 100vw;
+    }
+
+    menu {
+        display: none;
+
+    }
+
+    .burger {
+        display: block;
+
+    }
+
+    button.buy {
+        display: none;
+    }
+
+    .s-main {
+        display: none;
+    }
+
+    h1.xl-main {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 0;
+    }
+
+    p.ss-main {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 20px 30px 26px 30px;
+        text-align: center;
+    }
+
+    .main-a {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 59px;
+    }
+
+    button.dark {
+        margin-right: 0;
+        margin-bottom: 13px;
+    }
+
+    .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logotype {
+        margin: 0;
+    }
+
+    .cent .main {
+        margin-top: 0;
+        padding: 0;
+
+    }
+}
